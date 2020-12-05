@@ -1,7 +1,7 @@
 let canvas = document.querySelector("#myCanvas");
 let context = canvas.getContext('2d');
 let gameOver = false;
-let isWinner = false;//condition to fix bug when winning on a board filling marker placement
+let isWinner = false;//condition to fix bug when winning on a board-filling marker placement
 
 context.font = "40pt Courier New"
 context.fillStyle = "blue";
